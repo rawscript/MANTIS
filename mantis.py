@@ -31,7 +31,7 @@ print("="*70)
 # NVIDIA NEMOTRON SETUP (YOUR API)
 client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
-    api_key="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"
+    api_key=""
 )
 
 # 1. PERCEPTION AGENT - Data Fusion (Embedded CMAPSS FD001)
@@ -221,7 +221,7 @@ import numpy as np
 nest_asyncio.apply()
 
 # NGROK AUTH (YOUR KEY)
-ngrok.set_auth_token("2cgYORaBQsGtg2sSbVirewvXvR7_23YrvnRqcqoKxCcJTsvK3")
+ngrok.set_auth_token(" ")
 ngrok.kill()  # Kill old tunnels
 
 app = FastAPI(title=" MANTIS PdM API v1.0")

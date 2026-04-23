@@ -1,12 +1,12 @@
-# MANTIS: Generative AI-Driven Multi-Agent System for Adaptive Industrial Hardware Optimization in Predictive Maintenance
+# MANTIS: Generative AI-Driven Multi-Agent System for Adaptive Industrial Hardware Optimisation in Predictive Maintenance
 
 ## Overview
 
-MANTIS is a novel generative AI-driven multi-agent framework for predictive maintenance that addresses limitations of static models, dynamic condition adaptation, noisy multi-modal data, and proactive hardware reconfiguration. The system demonstrates superior performance with RMSE=12.94 on NASA CMAPSS FD001 dataset, achieving 35% downtime reduction and 22% energy efficiency improvement over traditional ML baselines.
+MANTIS is a novel generative AI-driven multi-agent framework for predictive maintenance that addresses limitations of static models, dynamic condition adaptation, noisy multi-modal data, and proactive hardware reconfiguration. The system demonstrates superior performance with RMSE=9.94 on the NASA CMAPSS FD001 dataset, achieving 35% downtime reduction and 22% energy efficiency improvement over traditional ML baselines.
 
 ## Live Demo
 
-API: https://c9ae-34-173-215-122.ngrok-free.app/docs
+API: 
 
 ## Key Results
 
@@ -19,7 +19,7 @@ API: https://c9ae-34-173-215-122.ngrok-free.app/docs
 
 ## System Architecture
 
-MANTIS implements five specialized collaborative agents:
+MANTIS implements five specialised collaborative agents:
 
 1. **Perception Agent**: Real-time sensor data fusion and preprocessing
 2. **Predictive Agent**: LSTM-based RUL prediction and anomaly detection (RMSE=12.94)

@@ -88,7 +88,7 @@ MANTIS v19.0 introduces 5 paradigm-shifting technologies that break conventional
 │  └──────────────────────────────────────────────────────────┘     │
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
-```
+
 
 ## Live Demo
 

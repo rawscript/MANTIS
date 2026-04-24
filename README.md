@@ -308,7 +308,6 @@ Future directions:
 
 James Mwaura  
 Zetech University, Nairobi, Kenya  
-Research Group: Intelligent Systems Laboratory  
 Email: mwaurajames@zetech.ac.ke  
 ORCID: 0000-0001-2345-6789
 

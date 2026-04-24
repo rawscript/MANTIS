@@ -126,7 +126,7 @@ API Endpoint: (Deployed on Google Colab with ngrok)
 
 ```bash
 # Clone repository
-git clone [https://github.com/jamesmwaura/mantis-v19](https://github.com/rawscript/MANTIS).git
+git clone https://github.com/rawscript/MANTIS.git
 cd mantis-v19
 
 # Install dependencies
@@ -325,4 +325,3 @@ MIT License - Free for academic and commercial use with attribution.
 ## Contact
 
 For reproduction issues or collaboration inquiries, please open a GitHub issue or email directly.
-```

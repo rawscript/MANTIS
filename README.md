@@ -52,7 +52,7 @@ MANTIS v19.0 introduces 5 paradigm-shifting technologies that break conventional
 | Ensemble Agent | Meta-learning with dynamic weights | Outperforms any single agent by 15% |
 
 ## System Architecture
-
+```
 ┌─────────────────────────────────────────────────────────────────────┐
 │                        MANTIS v19.0 PIPELINE                        │
 ├─────────────────────────────────────────────────────────────────────┤
@@ -88,7 +88,7 @@ MANTIS v19.0 introduces 5 paradigm-shifting technologies that break conventional
 │  └──────────────────────────────────────────────────────────┘     │
 │                                                                     │
 └─────────────────────────────────────────────────────────────────────┘
-
+```
 
 ## Live Demo
 
@@ -126,7 +126,7 @@ API Endpoint: (Deployed on Google Colab with ngrok)
 
 ```bash
 # Clone repository
-git clone https://github.com/jamesmwaura/mantis-v19.git
+git clone [https://github.com/jamesmwaura/mantis-v19](https://github.com/rawscript/MANTIS).git
 cd mantis-v19
 
 # Install dependencies

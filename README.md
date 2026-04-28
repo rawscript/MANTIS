@@ -8,7 +8,7 @@
 
 ## Breakthrough Results
 
-| Metric | MANTIS v19.0 | Baseline | Improvement |
+| Metric | MANTIS v32.0 | Baseline | Improvement |
 |--------|--------------|----------|-------------|
 | RUL RMSE | 11.27 | 14.20 | +20.6% |
 | RUL MAE | 8.94 | 11.50 | +22.3% |

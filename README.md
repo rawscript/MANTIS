@@ -127,18 +127,18 @@ API Endpoint: (Deployed on Google Colab with ngrok)
 ```bash
 # Clone repository
 git clone https://github.com/rawscript/MANTIS.git
-cd mantis-v19
+cd mantis
 
 # Install dependencies
 pip install torch pandas numpy scikit-learn matplotlib seaborn openai pyngrok fastapi uvicorn
 
 # Download CMAPSS dataset
-wget https://data.nasa.gov/api/views/ -O train_FD001.txt
-wget https://data.nasa.gov/api/views/ -O test_FD001.txt
-wget https://data.nasa.gov/api/views/ -O RUL_FD001.txt
+wget https://data.nasa.gov/api/views/ -O train_FD002.txt
+wget https://data.nasa.gov/api/views/ -O test_FD002.txt
+wget https://data.nasa.gov/api/views/ -O RUL_FD002.txt
 
 # Run training
-python mantis_v19.py
+python mantis_v32.3.py
 ```
 
 ## API Endpoints
@@ -188,59 +188,7 @@ Response:
 ## Files Included
 
 ```
-mantis_v19.py                 Complete revolutionary training pipeline
-revolutionary_mantis.pth      Trained model weights (RMSE=11.27)
-X_train.npy                   Training sequences (19,338 samples)
-y_train.npy                   Training RUL values
-X_test.npy                    Test sequences (3,413 samples)
-y_test.npy                    Test RUL ground truth
-scaler.pkl                    RobustScaler parameters
-results.json                  All metrics and agent performance
-revolutionary_analysis.pdf    6-panel comprehensive visualization
-agent_analysis.pdf            Agent comparison and error analysis
-chaos_analysis.pdf            Chaos trajectory and phase space
-final_comparison.pdf          Baseline vs v18 vs v19 comparison
-REVOLUTIONARY_REPORT.txt      Executive summary
-mantis_v19_results.zip        All results packaged
-```
 
-## Visualization Suite
-
-MANTIS v19.0 generates 4 comprehensive PDF figures:
-
-1. **revolutionary_analysis.pdf** (6 panels)
-   - Training loss convergence (log scale)
-   - Validation RMSE evolution
-   - Learning rate adaptation
-   - Predictions scatter with perfect fit line
-   - Residuals distribution with statistics
-   - Error vs actual RUL heatmap
-
-2. **agent_analysis.pdf** (4 panels)
-   - Individual agent predictions vs actual
-   - Agent error comparison bar chart
-   - Temporal RUL tracking (sample engines)
-   - Error heatmap across test set
-
-3. **chaos_analysis.pdf** (2 panels)
-   - Chaos state trajectory (logistic map)
-   - Phase space reconstruction
-
-4. **final_comparison.pdf**
-   - Baseline (14.2) vs v18 (16.73) vs v19 (11.27)
-
-## Gen AI Integration
-
-**NVIDIA Nemotron-3 Super 120B** provides:
-- Real-time failure scenario generation
-- Performance analysis and recommendations
-- Anomaly explanation generation
-
-```python
-# Example scenario generation
-from mantis_v19 import GenAIAnalyzer
-analyzer = GenAIAnalyzer(api_key="nvapi-...")
-scenarios = analyzer.generate_scenarios(num_scenarios=5)
 ```
 
 ## IEEE Standards Compliance

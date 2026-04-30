@@ -1,4 +1,4 @@
-# MANTIS v19.0: Revolutionary Multi-Agent System for Predictive Maintenance
+# MANTIS v32.3: Revolutionary Multi-Agent System for Predictive Maintenance
 ## Quantum-Inspired Chaos Optimization & Topological Learning for Turbofan RUL Prediction
 
 [![IEEE](https://img.shields.io/badge/IEEE-P2975.1%2F2-blue)](https://ieeexplore.ieee.org)
